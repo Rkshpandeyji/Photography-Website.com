@@ -1,0 +1,99 @@
+.split{
+    height:100%;
+    width:40%;
+    position:fixed;
+    z-index:1;
+    top:0;
+    overflow-x:hidden;
+    padding-top:20px;
+}
+
+.lefy{
+    padding:50px;
+}
+
+.up{
+    top:0;
+    background: white;
+    width:120vh;
+    height:15%;
+}
+
+.left{
+    left:0;
+    top:100px;
+    opacity:0.9;
+    padding-left:40px;
+}
+
+.rigfy{
+    padding:50px;
+}
+
+.right{
+    right:0;
+    background: url("Image/wb.jpg");
+    text-align:center;
+}
+
+ul{
+    list-style:none;
+    display:flex;
+    padding:0;
+    margin-right:45px;
+    float:right;
+    font-family: cursive;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li a{
+    margin-right: 2em;
+}
+
+li a:hover{
+    color:grey;
+}
+
+.head{
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+}
+
+.heading-cont{
+    left:0;
+    padding:70px;
+    margin-right: 10px;
+}
+
+.name-cont{
+    left:0;
+    padding:20px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+}
+
+.email-cont{
+    left:0;
+    padding: 2px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+}
+
+.message-cont{
+    left:0;
+    padding: 2px;
+    margin-right: 10px;
+    padding-top: 60px;
+}
+
+.list-inline{
+    bottom:0;
+}
+
+.footer{
+    text-align: center;
+}

@@ -1,0 +1,155 @@
+
+
+*{
+    background:url("Image/cr.jpg")
+}
+
+.border-left{
+    border-left:2px solid black;
+    position:absolute;
+    top:20%;
+    bottom:30%;
+}
+
+
+.container{
+    background: url("Image/kaup.jpg") no-repeat center transparent;
+    background-attachment: fixed;
+    height: 80px;
+    padding-top: 22px;
+    border-top: 1px solid black;
+    margin:35px;
+    padding:130px;
+    background-size: 70%;
+}
+
+.texto{
+    width:70%;
+    margin:auto;
+    font-weight:500;
+    padding: 10px;
+    border-bottom:2px solid black;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+.container2{
+    background: url("Image/about-bg.jpg") no-repeat center transparent;
+    background-attachment: fixed;
+    height: 80px;
+    margin:auto;
+    padding:130px;
+    background-size: 70%;
+}
+
+.texto-2{
+    width:70%;
+    margin:auto;
+    font-weight:500;
+    padding: 20px;
+    text-align: center;
+    border-bottom:2px solid black;
+    border-bottom-right-radius: 20px;
+}
+
+.border-left-2{
+    border-left:2px solid black;
+    position:absolute;
+    top:12%;
+    bottom:50%;
+}
+
+.container3{
+    background: url("Image/Goa.jpg") no-repeat center transparent;
+    background-attachment: fixed;
+    height: 80px;
+    margin:auto;
+    padding:130px;
+    background-size: 70%;
+}
+
+.texto-3{
+    width:70%;
+    margin:auto;
+    font-weight:500;
+    padding: 20px;
+    text-align: center;
+    border-bottom:2px solid black;
+    border-bottom-right-radius: 20px;
+}
+
+.para{
+    margin:auto;
+    font-size: medium;
+    font-weight:500;
+    padding: 20px;
+}
+
+
+
+.heading{
+    text-align:center;
+    font-weight:100;
+    font-family:cursive;
+    letter-spacing: 8px;
+    padding:60px;
+}
+
+
+
+ul{
+    list-style:none;
+    display:flex;
+    padding:0;
+    margin-right:45px;
+    float:right;
+    font-family: cursive;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li a{
+    margin-right: 2em;
+}
+
+li a:hover{
+    color:grey;
+}
+
+.footer{
+    text-align:center;
+}
+
+@media screen and (max-width: 1110px){
+    .border-left{
+        border-left:2px solid black;
+        position:absolute;
+        top:20%;
+        bottom:30%;
+        left:13%;
+    }
+
+    .border-left-2{
+        border-left:2px solid black;
+        position:absolute;
+        top:12%;
+        bottom:50%;
+        left:10%;
+    }
+
+}
+
+@media screen and (max-width: 490px){
+    .border-left{
+        display:none;
+    }
+
+    .border-left-2{
+        display:none;
+    }
+
+}
+
